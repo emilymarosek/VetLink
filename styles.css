@@ -1,0 +1,139 @@
+html,
+body {
+    font-family: 'KoHo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #DEF7E2;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.heading {
+    max-width: 60%;
+    margin-left: 6.8vw;
+    border: 3px solid black;
+    border-top: none;
+    background-color: white;
+}
+
+.heading img {
+    width: 520px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+
+}
+
+.heading h2 {
+    text-align: center;
+    padding-bottom: 3rem;
+    border-bottom: 3px solid black;
+}
+
+.bodytext p {
+    padding: 0 18rem 1rem;
+}
+
+.imageswrapper {
+    display: flex;
+    /* padding-bottom: 3rem; */
+    border-top: 3px solid black;
+
+}
+
+.imageswrapper img {
+    width: 181px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    height: 70px;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    align-items: center;
+
+
+}
+
+.nav ul li {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    border-left: 3px solid black;
+    height: 100%;
+}
+
+.nav span {
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    border-right: 3px solid black;
+    height: 100%;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.heading h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    letter-spacing: 0.15em;
+}
+
+.heading h2 {
+    font-family: 'KoHo';
+    font-style: italic;
+    font-size: 24px;
+}
+
+.bodytext p {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    padding: 0 2rem;
+}
+
+.bigpic img {
+    max-height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+    justify-self: flex-end;
+}
+
+.footer ul {
+    display: flex;
+    color: blue;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-circle {
+    height: 5px;
+    width: 5px;
+    background-color: blue;
+    margin: 0 8px;
+    border-radius: 100%;
+}
